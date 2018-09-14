@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_dictionaries"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:title="@string/action_dictionaries"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_translate"
+        android:icon="@drawable/ic_translate_black_24dp"
+        android:title="@string/action_translate"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/action_search"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/signout"
+        android:checkable="false"
+        android:title="@string/signout"
+        app:showAsAction="ifRoom"/>
+
+</menu>

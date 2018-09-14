@@ -1,0 +1,46 @@
+<resources>
+    <!--login strings-->
+    <string name="app_name">MyLang</string>
+    <string name="auth_failed">Authorization Failed</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="create">Create</string>
+    <string name="login">Login</string>
+    <string name="createAccount">Create an account</string>
+    <!--dictionaries strings-->
+    <string name ="dictionaries_endpoint">dictionaries</string>
+    <string name ="users_endpoint">users</string>
+    <string name="addToDictionary">Add To Dictionary</string>
+    <string name="submit">Submit</string>
+    <string name="passwordError">password must be between 3 and 15 characters</string>
+    <string name="invalidEmail">enter a valid email address</string>
+    <string name="signupFailed">Signup Failed</string>
+    <string name="delete">Delete</string>
+    <string name="deleted_dictionary">Deleted Dictionary</string>
+    <string name="deleted_translation">Deleted Translation</string>
+    <string name="loginFailed">Login Failed</string>
+    <string name="action_translate">Translate</string>
+    <string name="translate">Translation</string>
+    <string name="translations_endpoint">translations</string>
+    <string name="action_dictionaries">Dictionaries</string>
+    <string name="action_search">Search</string>
+    <string name="dictionaryName">dictionary name</string>
+    <string name="createNewDicitonary">create new dictionary</string>
+    <string name="added_success">Added to dictionary!</string>
+    <string name="added_dictionary_success">added to dictionaries</string>
+    <string name="dictionary_descriptions">dictionary description (optional)</string>
+    <string name="dictionaryError">must enter a dictionary name</string>
+    <string name="correctErrors">please correct errors</string>
+    <string name="signout">Signout</string>
+    <string name="createDictionary">create a dictionary</string>
+    <string name="createTranslation">create a translation</string>
+    <string name="languageTo">from language A to language B</string>
+    <string name="enterText">Enter Text</string>
+    <string name="color_option">pick a color (optional)</string>
+    <string name="orange">orange</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="red">red</string>
+
+</resources>

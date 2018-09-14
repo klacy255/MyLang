@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <TextView
+        android:id="@+id/translateTitleView"
+        android:background="@color/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_translate"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+    <GridLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="1">
+        <Spinner
+            android:id="@+id/originalLanguage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_marginStart="15dp"
+            android:layout_columnWeight="1"
+            android:layout_column="0"/>
+
+        <ImageButton
+            android:id="@+id/switchLanguages"
+            android:contentDescription="@string/languageTo"
+            android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_arrow_forward_black_18dp"
+            android:layout_gravity="center"/>
+
+        <Spinner
+            android:id="@+id/translatedLanguage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_marginEnd="15dp"
+            android:layout_columnWeight="1"
+            android:layout_column="2"
+            />
+
+    </GridLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:id="@+id/originalEditText"
+        android:layout_width="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:paddingEnd="10dp"
+        android:layout_height="75dp"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:hint="@string/enterText"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="text" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_translate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_translate"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/textColor"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/translatedTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:paddingEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/white"
+        android:text="@string/translate"
+        android:paddingTop="25dp"
+        android:paddingStart="10dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_addToDictionary"
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/addToDictionary"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        />
+
+</LinearLayout>
